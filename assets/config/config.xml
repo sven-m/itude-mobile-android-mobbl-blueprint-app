@@ -1,0 +1,34 @@
+<Configuration xmlns="http://itude.com/schemas/MB/1.0">
+  <Model>
+    <Domains>
+    </Domains>
+
+  	<Documents>
+  	    <Document name="MBEmptyDoc" dataManager="MBMemoryDataHandler" autoCreate="TRUE">
+			<Element name="Parameters" minOccurs="1">
+				<Attribute name="name" type="string" />
+			</Element>
+		</Document>
+	</Documents>
+  </Model>
+
+  <Controller>
+	<Actions>
+	</Actions>
+	
+	<Wiring>
+	    <Outcome origin="Controller" name="init" action="HOME" dialog="dialog1"/>
+	</Wiring>
+	
+  </Controller>
+
+  <View>
+      <Dialogs>
+          <Dialog name="dialog1" mode="STACK" title="1"/>
+	  </Dialogs>
+	  
+      <Page name="HOME" document="MBEmptyDoc" title="Welcome">
+	  </Page>
+      
+  </View>  
+</Configuration>
