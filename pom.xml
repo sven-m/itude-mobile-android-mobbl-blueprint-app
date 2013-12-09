@@ -18,7 +18,15 @@
 				<role>Contributor</role>
 			</roles>
 		</developer>
-	</developers>
+		<developer>
+			<name>Pjotter Tommassen</name>
+			<id>p.tommassen</id>
+			<roles>
+				<role>Developer</role>
+				<role>Contributor</role>
+			</roles>
+		</developer>
+			</developers>
 
 	<dependencies>
 		<dependency>
