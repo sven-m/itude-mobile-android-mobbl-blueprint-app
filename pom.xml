@@ -7,7 +7,7 @@
 	<packaging>apk</packaging>
 	<name>Android Mobbl Blueprint app</name>
 	<description>Android Mobbl Core Blueprint application</description>
-	<url>http://www.itude.com</url>
+	<url>http://mobbl.org/</url>
 	<inceptionYear>2013</inceptionYear>
 	<developers>
 		<developer>
@@ -138,8 +138,8 @@
 	</build>
 
 	<properties>
-		<core.lib.version>3.2.0.9</core.lib.version>
-		<util.lib.version>0.2.0.0</util.lib.version>
+		<core.lib.version>3.2.0.10</core.lib.version>
+		<util.lib.version>0.2.0.1</util.lib.version>
 		<android.version>4.4</android.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
