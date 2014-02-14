@@ -4,11 +4,6 @@
     </Domains>
 
   	<Documents>
-  	    <Document name="MBEmptyDoc" dataManager="MBMemoryDataHandler" autoCreate="TRUE">
-			<Element name="Parameters" minOccurs="1">
-				<Attribute name="name" type="string" />
-			</Element>
-		</Document>
 	</Documents>
   </Model>
 
@@ -27,7 +22,7 @@
           <Dialog name="dialog1" mode="STACK" title="1"/>
 	  </Dialogs>
 	  
-      <Page name="HOME" document="MBEmptyDoc" title="Welcome">
+      <Page name="HOME" document="MBEmpty" title="Welcome">
 	  </Page>
       
   </View>  
