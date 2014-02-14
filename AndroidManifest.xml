@@ -16,5 +16,4 @@
 		<activity android:configChanges="orientation" android:name="com.itude.mobile.mobbl.core.controller.MBDialogController"/>
 		<activity android:name="com.itude.mobile.mobbl.core.controller.util.MBBasicViewController"/>
     </application>
-    <uses-permission android:name="android.permission.GET_TASKS"/>
 </manifest>

@@ -1,5 +1,5 @@
 <Resources>
-	<Bundle languageCode="nl" 						url="file://texts-nl.xml"/>
+	<Bundle languageCode="en" 						url="file://texts-en.xml"/>
 	
 	<Resource id="whitelabel-splashscreen" url="file://whitelabel_splashscreen.png" />
 	
