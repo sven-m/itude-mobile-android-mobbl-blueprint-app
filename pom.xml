@@ -39,7 +39,7 @@
 			<groupId>com.itude.mobile.android.mobbl</groupId>
 			<artifactId>mobbl-core-lib</artifactId>
 			<version>${core.lib.version}</version>
-			<type>apklib</type>
+			<type>aar</type>
 		</dependency>
 	</dependencies>
 
@@ -78,7 +78,7 @@
 											android-maven-plugin
 										</artifactId>
 										<versionRange>
-											[3.9.0-rc.1,)
+											[3.9.0-rc.3,)
 										</versionRange>
 										<goals>
 											<goal>proguard</goal>
@@ -110,7 +110,7 @@
 			<plugin>
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 				<artifactId>android-maven-plugin</artifactId>
-				<version>3.9.0-rc.1</version>
+				<version>3.9.0-rc.3</version>
 				<configuration>
 					<sdk>
 						<platform>19</platform>
@@ -144,7 +144,7 @@
 	</build>
 
 	<properties>
-		<core.lib.version>3.2.0.23</core.lib.version>
+		<core.lib.version>3.2.0.25</core.lib.version>
 		<android.version>4.4</android.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
